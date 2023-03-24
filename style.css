@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+    
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.a1{
+    background-color: rgb(244, 244, 247);
+    padding: 0 20px;
+    justify-content: space-between;
+
+}
+
+h2,
+ {
+    color: black;
+
+
+}
+
+.a1 ,nav,
+.a2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+
+}
+
+ .a2 li {
+    padding: 0 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 26px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+
+
+}
+
+  .a2 li:hover,
+h2:hover,button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(201, 204, 44, 0.2);
+}
+@media ( max-width:700px){
+    .a1 nav  ul{
+        flex-direction: column;
+      
+    }
+    .a1 ul{
+        text-align: center  ;
+    }
+
+nav{
+    padding: 0;
+    align-items: flex-start;
+}
+h1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+button{
+    display: flex;
+}
+.a2 li, ul{
+    width: 100%;
+}
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.quemsomos-descricao{
+    margin: auto;
+    max-width: 980px;
+    text-align: center;
+    background-color: rgba(201, 204, 44, 0.2);
+}
+.quemsomos{
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    background-color: rgba(201, 204, 44, 0.2);
+    
+
+}
+    .quemsomos-descricao li  {
+        padding: 10px;
+        
+        margin: auto;
+        font-size: 16px;
+       
+       
+
+    }
+    .card{
+        max-width: 100%;
+        display:flex;
+       float: left;
+        text-align: center;
+        overflow: auto  ;
+        margin-top: 10px;
+        
+        
+        
+
+
+    }
+    .card p{
+        text-align: center;
+       
+       
+    }
+    .biblioteca img{
+        width: 95%;
+        text-align: center;
+        border-radius: 10px;
+       padding: auto 5px;
+        
+    }
+    .brinquedoteca img{
+        width: 95%;
+        text-align: center;
+        border-radius: 10px;
+        padding: auto 5px;
+
+    }
+    .pilates img{
+        width: 95%;
+        text-align: center;
+        border-radius: 10px;
+       padding: auto 5px;
+    }
+    .card .biblioteca {
+        
+        border-radius: 10px;
+    }
+    .card .brinquedoteca {
+        
+        border-radius: 10px;
+    }
+    .card .pilates{
+      
+        border-radius: 10px;
+    }
+    .link-estrutura h1{
+        text-align: center;
+        border-bottom: 5px solid rgb(92, 72, 72);
+        background-color: red;
+        color: #ffffff;
+        width: 100%;
+    }
+    #link-voltar{
+    float: left;
+    margin: 30px 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.biblioteca p {
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 9    0%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    color: #ffffff;
+}
+.pilates p {
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    color: #ffffff;
+}
+.brinquedoteca p {
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    width:90%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    color: #ffffff;
+}
+.a1{
+    position: sticky;
+    top: 0px;
+}
+
+   
